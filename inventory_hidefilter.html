@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>First Marshall Auto Auction</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+ 
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+ 
+  
+ 
+   <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/vendor/owlcarousel/owl.carousel.css">
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="youtube"><i class="bi bi-youtube"></i></i></a>
+      </div>
+	  <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-geo-alt-fill d-flex align-items-center"> 398 E 147th St Harvey, IL 60426</a></i>
+        <i class="bi bi-telephone-fill d-flex align-items-center ms-4"><a href="7083332266"> 708-333-2266</a></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo"><img src="assets/img/logo.jpg" alt=""></a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link active" href="inventory.html">Inventory</a></li>
+          <li><a class="nav-link" href="aboutus.html">About us</a></li>          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+  
+
+  <main id="main">
+  
+  
+    <section id="innerpage" class="innerpage inventoryPage">
+      <div class="container" data-aos="fade-up">
+        <div class="breadcrumbs">
+			<ul class="items">
+                <li class="item"><a href="#" title="Home">Home</a></li> 
+                <li class="item"><span>Inventory</span></li>
+            </ul>
+		</div>
+
+        <div class="row">
+		
+            <div class="col-3 leftsidebar" style="display:none">
+            <h2>Filter Vehicles  <a href="#" class="resetall"><i class="bi bi-arrow-repeat"> </i>Reset All</a></h2>
+            
+            <div class="form-group searchFilter">
+              <h3>Keyword search</h3> 
+              <div class="searchbox">
+              <input type="text" class="form-control" placeholder="Search">
+              <button class="btn searchIcon" type="button">
+                <i class="bi bi-search"></i>
+              </div>
+              </button>
+            </div>
+
+            <div class="form-group">
+              <h3>Condition</h3> 
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Any">
+                <label for="Any">Any</label>
+              </div>
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Used Condition</label>
+              </div>
+            </div>
+			
+			
+			<div class="form-group">
+					 <h3>Retail Price</h3>
+					<div class="range-slider">
+					<div class="rangetbox">					
+						<div class="minValue"><input type="number" value="1000" min="0" max="120000"/></div>	to
+						<div class="maxValue"><input type="number" value="50000" min="0" max="120000"/></div>
+					</div>
+						  <input value="1000" min="0" max="120000" step="500" type="range"/>
+						  <input value="50000" min="0" max="120000" step="500" type="range"/>
+						  <svg width="100%" height="24">
+							<line x1="4" y1="0" x2="300" y2="0" stroke="#444" stroke-width="0" stroke-dasharray="1 28"></line>
+						  </svg>
+					</div>
+                </div> 
+
+                  <div class="form-group">
+					 <h3>Mileage</h3>
+					<div class="range-slider1 range-slider">
+					<div class="rangetbox">					
+						<div class="minValue"><input type="number" value="2000" min="0" max="120000"/></div>	to
+						<div class="maxValue"><input type="number" value="50000" min="0" max="120000"/></div>
+					</div>
+						  <input value="1000" min="0" max="120000" step="500" type="range"/>
+						  <input value="50000" min="0" max="120000" step="500" type="range"/>
+						  <svg width="100%" height="24">
+							<line x1="4" y1="0" x2="300" y2="0" stroke="#444" stroke-width="0" stroke-dasharray="1 28"></line>
+						  </svg>
+					</div>
+                </div> 
+				
+				
+				 <div class="form-group">
+					 <h3>Year</h3>
+					<div class="range-slider3 range-slider">
+					<div class="rangetbox">					
+						<div class="minValue"><input type="number" value="1000" min="0" max="120000"/></div>	to
+						<div class="maxValue"><input type="number" value="50000" min="0" max="120000"/></div>
+					</div>
+						  <input value="1000" min="0" max="120000" step="500" type="range"/>
+						  <input value="50000" min="0" max="120000" step="500" type="range"/>
+						  <svg width="100%" height="24">
+							<line x1="4" y1="0" x2="300" y2="0" stroke="#444" stroke-width="0" stroke-dasharray="1 28"></line>
+						  </svg>
+					</div>
+                </div> 
+				
+				
+				
+				
+
+                <div class="form-group">
+              <h3>Make</h3> 
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Any">
+                <label for="Any">Any</label>
+              </div>
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Acura (8)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Audi (5)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">BMW (21)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Buick (8)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Cadillac (9)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Chevrolet (43)</label>
+              </div>
+            </div>
+
+
+            <div class="form-group">
+              <h3>Model</h3> 
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Any">
+                <label for="Any">Any</label>
+              </div>
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Avalanche (8)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Cts (5)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Deville (21)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Express cargo van (8)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Impala (9)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Silverado 1500 (43)</label>
+              </div>
+            </div>
+
+             <div class="form-group">
+              <h3>Trim</h3> 
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Any">
+                <label for="Any">Any</label>
+              </div>
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">1500 5Dr Crew Cab</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">4Dr Sdn (1)</label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <h3>Colour</h3> 
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="All">
+                <label for="All">All</label>
+              </div>
+              
+			  <div class="roundCheckbox">
+				<div class="input-group custom_checkbox">
+					<input type="checkbox" id="White">
+					<label class="white" for="White">White</label>
+                </div>
+				
+				<div class="input-group custom_checkbox">
+					<input type="checkbox" id="Black">
+					<label class="black" for="Black">Black</label>
+                </div>
+				
+				<div class="input-group custom_checkbox">
+					<input type="checkbox" id="Red">
+					<label class="red" for="Red">Red</label>
+                </div>
+				
+				<div class="input-group custom_checkbox">
+					<input type="checkbox" id="Yellow">
+					<label class="yellow" for="Yellow">Yellow</label>
+                </div>
+				
+				<div class="input-group custom_checkbox">
+					<input type="checkbox" id="Silver">
+					<label class="silver" for="Silver">Silver</label>
+                </div>
+				
+				<div class="input-group custom_checkbox">
+					<input type="checkbox" id="Brown">
+					<label class="brown" for="Brown">Brown</label>
+                </div>
+				<div class="input-group custom_checkbox">
+					<input type="checkbox" id="Gold">
+					<label class="gold" for="Gold">Gold</label>
+                </div>
+			  </div>
+            </div>
+
+            <div class="form-group">
+            <h3>Interior Colour</h3> 
+
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="All1">
+                <label for="All1">All</label>
+              </div>
+                 
+				<div class="roundCheckbox">
+				<div class="input-group custom_checkbox">
+					<input type="checkbox" id="ic_White">
+					<label class="white" for="ic_White">White</label>
+                </div>
+				
+				<div class="input-group custom_checkbox">
+					<input type="checkbox" id="ic_Black">
+					<label class="black" for="ic_Black">Black</label>
+                </div>
+				
+				<div class="input-group custom_checkbox">
+					<input type="checkbox" id="ic_Red">
+					<label class="red" for="ic_Red">Red</label>
+                </div>
+				
+				<div class="input-group custom_checkbox">
+					<input type="checkbox" id="ic_Yellow">
+					<label class="yellow" for="ic_Yellow">Yellow</label>
+                </div>
+				
+				
+				
+			  </div>
+			
+            </div>
+
+            <div class="form-group">
+              <h3>Interior</h3> 
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Any">
+                <label for="Any">Any</label>
+              </div>
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Avalanche (8)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Cts (5)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Deville (21)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Express cargo van (8)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Impala (9)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Silverado 1500 (43)</label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <h3>Body Type</h3> 
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Any">
+                <label for="Any">Any</label>
+              </div>
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Box Truck (8)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Bucket truck-L (5)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Bucket Truck-M(21)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Convertible (8)</label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <h3>Fuel Type</h3> 
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Any">
+                <label for="Any">Any</label>
+              </div>
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Petrol (8)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Diesel (5)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Diesel (5)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">LPG (8)</label>
+              </div>
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Hybrid (9)</label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <h3>Cylinders</h3> 
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Any">
+                <label for="Any">Any</label>
+              </div>
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Cylinders1 (8)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Cylinders2 (5)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Cylinders3 (21)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Cylinders4 (8)</label>
+              </div>
+            </div>
+
+
+            <div class="form-group">
+              <h3>Drive train</h3> 
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Any">
+                <label for="Any">Any</label>
+              </div>
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Two wheel Drive (8)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Front Wheel drive (5)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Rear wheel drive (21)</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Four wheel drive (8)</label>
+              </div>
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">All wheel drive (8)</label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <h3>Transmission</h3> 
+              <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Manual</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Automatic</label>
+              </div>
+               <div class="input-group custom_checkbox">
+                <input type="checkbox" id="Used Condition">
+                <label for="Used Condition">Other</label>
+              </div>
+            </div>
+
+          
+         </div>
+
+        
+
+        <div class="col-9 innerRight filterHidden">
+            <div class="col-12 fliterBlock">
+				<a href="inventory.html" class="hideFilter left">Show filters</a>
+				
+				<div class="right">
+						<div class="form-group shotby">
+								<label class="control-label" for="">Shot by :</label> 
+								<select class="form-select" aria-label="Default select example">
+								  <option selected>Price - Low to High</option>
+								  <option value="1">Price - High to Low</option>
+								</select>
+							</div>
+							
+							<a href="#" class="gridview active"><i class="bi bi-grid-fill"></i></a>
+							<a href="#" class="listview"><i class="bi bi-list-ul"></i></a>
+							
+							
+				</div>
+				
+			
+			</div>
+              
+			  
+			  <div class="row">
+
+              <div class="item inventoryBlock col-4">
+                <div class="car-item">
+                  <div class="top">
+                    <div class="custom_checkbox compare">
+                      <input type="checkbox" id="Compare">
+                      <label for="Compare">Compare</label>
+                    </div>                    
+                    <div class="fav whishlist"><i class="bi bi-heart-fill"></i></div>
+                  </div>
+                  <div class="proImg"	>
+                  <img src="assets/img/cardetail5.jpg" class="carImg" alt="...">
+                  <span class="bestdeal">Best Sale</span>
+                </div>
+                  <div class="content">
+                    <h2>2012 Hummer H3 -used car</h2>
+                    <div class="carDetails">
+                      <p>Fuel: <span>Automatic</span></p>                      
+                      <p>Location: <span>Harvey</span></p>                      
+                      <p>Stock #: <span>U612</span></p>                      
+                      <p>Transmission: <span>Manual</span></p>                      
+                    </div>
+                    <a href="#">$8,1000</a>
+                  </div>
+              </div>
+            </div>
+
+            <div class="item inventoryBlock col-4">
+              <div class="car-item">
+                <div class="top">
+                  <div class="custom_checkbox compare">
+                    <input type="checkbox" id="Compare">
+                    <label for="Compare">Compare</label>
+                  </div>                    
+                  <div class="fav"><i class="bi bi-heart-fill"></i></div>
+                </div>
+                <div class="proImg"	>
+                <img src="assets/img/cardetail5.jpg" class="carImg" alt="...">
+                <span class="bestdeal">Best Sale</span>
+              </div>
+                <div class="content">
+                  <h2>2012 Hummer H3 -used car</h2>
+                  <div class="carDetails">
+                    <p>Fuel: <span>Automatic</span></p>                      
+                    <p>Location: <span>Harvey</span></p>                      
+                    <p>Stock #: <span>U612</span></p>                      
+                    <p>Transmission: <span>Manual</span></p>                      
+                  </div>
+                  <a href="#">$8,1000</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="item inventoryBlock col-4">
+            <div class="car-item">
+              <div class="top">
+                <div class="custom_checkbox compare">
+                  <input type="checkbox" id="Compare">
+                  <label for="Compare">Compare</label>
+                </div>                    
+                <div class="fav"><i class="bi bi-heart-fill"></i></div>
+              </div>
+              <div class="proImg"	>
+              <img src="assets/img/cardetail5.jpg" class="carImg" alt="...">
+              <span class="bestdeal">Best Sale</span>
+            </div>
+              <div class="content">
+                <h2>2012 Hummer H3 -used car</h2>
+                <div class="carDetails">
+                  <p>Fuel: <span>Automatic</span></p>                      
+                  <p>Location: <span>Harvey</span></p>                      
+                  <p>Stock #: <span>U612</span></p>                      
+                  <p>Transmission: <span>Manual</span></p>                      
+                </div>
+                <a href="#">$8,1000</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="item inventoryBlock col-4">
+          <div class="car-item">
+            <div class="top">
+              <div class="custom_checkbox compare">
+                <input type="checkbox" id="Compare">
+                <label for="Compare">Compare</label>
+              </div>                    
+              <div class="fav"><i class="bi bi-heart-fill"></i></div>
+            </div>
+            <div class="proImg"	>
+            <img src="assets/img/cardetail5.jpg" class="carImg" alt="...">
+            <span class="bestdeal">Best Sale</span>
+          </div>
+            <div class="content">
+              <h2>2012 Hummer H3 -used car</h2>
+              <div class="carDetails">
+                <p>Fuel: <span>Automatic</span></p>                      
+                <p>Location: <span>Harvey</span></p>                      
+                <p>Stock #: <span>U612</span></p>                      
+                <p>Transmission: <span>Manual</span></p>                      
+              </div>
+              <a href="#">$8,1000</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="item inventoryBlock col-4">
+        <div class="car-item">
+          <div class="top">
+            <div class="custom_checkbox compare">
+              <input type="checkbox" id="Compare">
+              <label for="Compare">Compare</label>
+            </div>                    
+            <div class="fav"><i class="bi bi-heart-fill"></i></div>
+          </div>
+          <div class="proImg"	>
+          <img src="assets/img/cardetail5.jpg" class="carImg" alt="...">
+          <span class="bestdeal">Best Sale</span>
+        </div>
+          <div class="content">
+            <h2>2012 Hummer H3 -used car</h2>
+            <div class="carDetails">
+              <p>Fuel: <span>Automatic</span></p>                      
+              <p>Location: <span>Harvey</span></p>                      
+              <p>Stock #: <span>U612</span></p>                      
+              <p>Transmission: <span>Manual</span></p>                      
+            </div>
+            <a href="#">$8,1000</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="item inventoryBlock col-4">
+      <div class="car-item">
+        <div class="top">
+          <div class="custom_checkbox compare">
+            <input type="checkbox" id="Compare">
+            <label for="Compare">Compare</label>
+          </div>                    
+          <div class="fav"><i class="bi bi-heart-fill"></i></div>
+        </div>
+        <div class="proImg"	>
+        <img src="assets/img/cardetail5.jpg" class="carImg" alt="...">
+        <span class="bestdeal">Best Sale</span>
+      </div>
+        <div class="content">
+          <h2>2012 Hummer H3 -used car</h2>
+          <div class="carDetails">
+            <p>Fuel: <span>Automatic</span></p>                      
+            <p>Location: <span>Harvey</span></p>                      
+            <p>Stock #: <span>U612</span></p>                      
+            <p>Transmission: <span>Manual</span></p>                      
+          </div>
+          <a href="#">$8,1000</a>
+        </div>
+    </div>
+  </div>
+
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+        </div>
+
+        
+    </section>
+
+
+
+    
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <span>First Marshall Auto Auction</span>. All Rights Reserved
+      </div>
+      <div class="links">
+       
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap-tab.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+
+    <!-- javascript -->
+  <script src="assets/vendor/owlcarousel/owl.carousel.js"></script>
+  
+
+  <!-- Template Main JS File -->
+		<script src="assets/js/main.js"></script>
+				<script src="assets/js/rangeslider.js"></script>
+				<script>
+				  $('#myTab a').click(function (e) {
+				  e.preventDefault();
+				  $(this).tab('show');
+				})
+
+
+        $('.inventory-carousel').owlCarousel({
+          loop:true,
+          margin:20,
+          nav:true,
+          dots:false,
+          navText : ['<i class="bi bi-chevron-left"></i>','<i class="bi bi-chevron-right"></i>'],
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:3
+              },
+              1000:{
+                  items:4
+              }
+          }
+      })
+
+
+
+
+
+				</script>
+        
+
+</body>
+
+</html>
